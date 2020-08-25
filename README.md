@@ -20,13 +20,13 @@ thus the worklogs won't get downloaded for this specific person
 ## Run
 
 ```shell script
-./jira-logs --startDate 2020-07-01 --endDate 2020-07-31 --group developers
+./jira-logs.js --startDate 2020-07-01 --endDate 2020-07-31 --group developers
 ```
 
 This will retrieve work logs from Jira(s). Of course select any period you wish.
 
 To get help use:
 ```shell script
-./jira-logs --help
+./jira-logs.js --help
 ```
 
