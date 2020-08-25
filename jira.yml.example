@@ -1,0 +1,16 @@
+groups:
+  developers:
+    - John Doe
+    - Jane Doe
+  pms:
+    - Foo Bar
+    - Foo Baz
+instances:
+  - url: 'foo.atlassian.net'
+    email: 'foo.bar@domain.tld'
+    api_token: 'foobar'
+  - url: 'bar.atlassian.net'
+    email: 'foo.baz@domain.tld'
+    api_token: 'foobar'
+    tempo_api_token: 'foobar'
+    is_tempo: true
